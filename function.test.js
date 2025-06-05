@@ -12,10 +12,10 @@ test ('Should be falsy', () => {
     expect(functions.checkValue(undefined)).toBeFalsy();
 });
 
-test ('User should be Anura Senevirathne', () => {
+test ('User should be Anura Kumara', () => {
     expect(functions.createUser()).toEqual({
         firstName: 'Anura',
-        lastName: 'Senevirathne',
+        lastName: 'Kumara',
         age: 30
     });
 });

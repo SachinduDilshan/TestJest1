@@ -13,7 +13,7 @@ const functions = {
     createUser: () => {
         const user = {
         firstName: 'Anura'};
-        user['lastName'] = 'Senevirathne';
+        user['lastName'] = 'Kumara';
         user['age'] = 30;  
         return user;
     },
