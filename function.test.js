@@ -15,7 +15,7 @@ test ('Should be falsy', () => {
 test ('User should be Anura Kumara', () => {
     expect(functions.createUser()).toEqual({
         firstName: 'Anura',
-        lastName: 'Kumara',
+        lastName: 'Kumaraa',
         age: 30
     });
 });
